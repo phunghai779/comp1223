@@ -1,0 +1,156 @@
+#index{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+}
+#evolution{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to left, #2980B9, #6DD5FA, #FFFFFF);
+}
+#gears{
+    margin: 0;
+    padding: 0;
+}
+#official{
+    background: url(images/skydive12.1.jpg);
+    width: 1400px;
+    height: 787px;
+}
+nav ul li{
+    display: inline-block;
+}
+/* Navigation bar */
+nav ul{
+    background-image: linear-gradient(to left, #757F9A, #D7DDE8);
+    text-decoration: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color:lightseagreen;
+}
+/* Navigation bar hover effect */
+nav ul li a:hover{
+    background-image: linear-gradient(to left, #4da0b0, #d39d38) ;
+    text-decoration: none;
+    color: white;
+}
+.active{
+    text-decoration: none;
+    background-image: linear-gradient(to left, #c2e59c, #64b3f4) ;
+    color:ghostwhite;
+}
+/* Header of the page */
+header{
+    text-align:center;
+    color:coral;
+    background-image: linear-gradient(to left, #1CD8D2, #93EDC7) ;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+nav{
+    text-align:center;
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding:0;
+}
+#menu-table{
+    border-collapse: collapse;
+    margin: auto auto;
+}
+#menu-table th, #menu-table td{
+    padding: 0;
+    margin: 0;
+    border-spacing: 0;
+}
+/* Overflow paragraph */
+.auto{
+    overflow: auto;
+    height: 250px;
+}
+/* Scroll bar */
+#scroll tr td{
+    width: 500px;
+    text-align: center;
+    border:2px solid black;
+}
+.bottom{
+    text-decoration: none;
+    color:#283e51;
+}
+.copyright{
+    width: 200px;
+    position: absolute;
+    bottom: 10px;
+}
+/* Youtube Videos */
+.video{
+    text-align: center;
+}
+.finest{
+    text-align: center;
+    font-size: 48px;
+    color:#1CD8D2;
+}
+#container{
+    margin: auto;
+    width: 400px;
+    height: 0px;
+    transition: height 2s;
+}
+#helmet1{
+    background-image: url(images/helmet1.1.jpg);
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+#helmet1:hover~#container{
+    background-image: url(images/helmet1.2.jpg);
+    height: 600px;
+    transition: height 2s;
+}
+#helmet2{
+    background-image: url(images/helmet2.1.jpg);
+    height: 300px;
+    width: 300px;
+    float: right;
+}
+#helmet2:hover~#container{
+    background-image: url(images/helmet2.2.jpg);
+    height: 600px;
+    transition: height 2s;
+}
+#skydiving-container1{
+    background-image: url(images/skydiving-container1.1.jpg);
+    height: 300px;
+    width: 300px;
+    float: right;
+    clear: right;
+}
+#skydiving-container1:hover~#container{
+    background-image:url(images/skydiving-container1.2.jpg);
+    height: 600px;
+    transition: height 2s;
+}
+#skydiving-container2{
+    background-image: url(images/skydiving-container2.1.jpg);
+    height: 300px;
+    width: 300px;
+    float: left;
+    clear: left;
+}
+#skydiving-container2:hover~#container{
+    background-image: url(images/skydiving-container2.2.jpg);
+    height: 600px;
+    transition: height 2s;
+}
+.copyright{
+    width: 200px;
+    position: absolute;
+    bottom: 10px;
+    clear: both;
+}

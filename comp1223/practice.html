@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Transition</title>
+    <meta name="description" content="Working with navigation bar">
+    <meta name="author" content="Hai Phung">
+    <style>
+        .icons{
+            width: 152px;
+            height: 152px;
+            float: left;
+            margin: 10px;
+        }
+        #div1{
+            background-image: url(images/mcree.jpg);
+        }
+        #div2{
+            background-image: url(img/image2-small.png);
+        }
+        #div1:hover~#container{
+            background-image: url(images/mcree.jpg);
+            height: 300px;
+
+        }
+        #div2:hover~#container{
+            background-image: url(img/image2-small.png);
+        }
+        #container{
+            margin: auto;
+            clear: left;
+            width: 300px;
+            height: 0;
+            /* border: 2px solid gray; */
+
+        }
+    </style>
+</head>
+<body>
+<div id="div1" class="icons"></div>
+<div id="div2" class="icons"></div>
+<div id="container"></div>
+<script src=http://my.gblearn.com/js/loadscript.js></script>
+</body>
+</html>
